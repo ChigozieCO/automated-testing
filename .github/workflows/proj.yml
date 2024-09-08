@@ -61,4 +61,4 @@ jobs:
     - name: Simulate Deployment
       run: |
         echo "Deploying to staging..."
-        ls build/
+        ls build
