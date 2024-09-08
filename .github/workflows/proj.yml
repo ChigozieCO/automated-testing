@@ -57,8 +57,9 @@ jobs:
       uses: actions/download-artifact@v4
       with:
         name: build-artifact
+        path: build/
 
     - name: Simulate Deployment
       run: |
         echo "Deploying to staging..."
-        ls build
+        ls build/
